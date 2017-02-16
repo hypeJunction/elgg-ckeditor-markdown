@@ -1,8 +1,10 @@
 {
-    "name": "elgg/ckeditor",
+    "name": "elgg/elgg-ckeditor-markdown",
     "type": "elgg-plugin",
+	"minimum-stability": "dev",
     "require": {
-        "composer/installers": ">=1.0.8"
+        "composer/installers": "~1.0",
+		"bower-asset/ckeditor-markdown-plugin": "1.0.1"
     },
     "license": "GPL-2.0"
 }
